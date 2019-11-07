@@ -11,13 +11,13 @@
 cd nodejs(进入nodejs文件夹)
 npm install or cnpm i
 
-cd libraryManage(进入stugradeManage文件夹)
+cd stugradeManage(进入stugradeManage文件夹)
 npm install or cnpm i
 ```
 ### npm run 
 ```
 cd nodejs
 node app.js or nodemon app.js
-cd libraryManage
+cd stugradeManage
 npm run dev
 ```
