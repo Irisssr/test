@@ -1,9 +1,9 @@
 # myTest
 ## A Studen Grade Manage
 
-功能点：用户登录、注册、密码修改（注意用户类型，学生or教师），成绩录入和编辑（教师），成绩查看（学生）
-前台页面 Vue+Element-ui
-后端 Node.js+Express+SqlServer
++功能点：用户登录、注册、密码修改（注意用户类型，学生or教师），成绩录入和编辑（教师），成绩查看（学生）
++前台页面 Vue+Element-ui
++后端 Node.js+Express+SqlServer
 
 ### npm install
 
