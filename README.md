@@ -6,18 +6,21 @@
 + 后端部分 Node.js+Express+SqlServer
 
 ### npm install
-
+进入nodejs文件夹下
 ```
-cd nodejs(进入nodejs文件夹)
-npm install or cnpm i
-
-cd stugradeManage(进入stugradeManage文件夹)
-npm install or cnpm i
+npm install 
+```
+进入stugradeManage文件夹下
+```
+npm install
 ```
 ### npm run 
+
+进入nodejs文件夹下
 ```
-cd nodejs
-node app.js or nodemon app.js
-cd stugradeManage
+node app.js 
+```
+进入stugradeManage文件夹下
+```
 npm run dev
 ```

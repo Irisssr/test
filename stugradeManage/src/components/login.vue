@@ -69,10 +69,10 @@ export default {
                 else if(res.data.statusCode===0){
                     that.$message(res.data.msg)
                     let user=res.data.data[0]
-                    let username=user.stuNum?user.stuNum:user.teaNum;
-                    let userpwd=user.stuPwd?user.stuPwd:user.teaPwd;
-                    window.localStorage.setItem('usernum',username)
-                    window.localStorage.setItem('username',userpwd)
+                    let username=user.stuNum?user.stuName:user.teaName;
+                    let usernum=user.stuNum?user.stuNum:user.teaNum;
+                    window.localStorage.setItem('usernum',usernum)
+                    window.localStorage.setItem('username',username)
                     if(user.stuNum){
                         that.$router.push({ path:'/stuindex'})
                     }else{

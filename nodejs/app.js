@@ -208,7 +208,7 @@ app.post('/api/grade',(req,res,next)=>{
         })
     })
 })
-//教师成绩修改1
+//教师成绩修改
 app.post('/api/curgrade',(req,res,next)=>{
     let stuNum=req.body.stuNum;
     let courseNo=req.body.courseNo;
@@ -226,7 +226,7 @@ app.post('/api/curgrade',(req,res,next)=>{
             })
         })
 })
-//教师成绩修改2
+//教师成绩修改
 app.post('/api/newgrade',(req,res,next)=>{
     let stuNum=req.body.stuNum;
     let courseNo=req.body.courseNo;
