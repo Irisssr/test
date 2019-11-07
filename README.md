@@ -11,7 +11,7 @@
 cd nodejs(进入nodejs文件夹)
 npm install or cnpm i
 
-cd libraryManage(进入libraryManage文件夹)
+cd libraryManage(进入stugradeManage文件夹)
 npm install or cnpm i
 ```
 ### npm run 
